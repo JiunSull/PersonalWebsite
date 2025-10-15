@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-color: #0b0f1f;
+    color: white;
+}
+
+header nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header nav>a {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav div {
+    display: flex;
+    gap: 32px;
+}
+
+header nav div a {
+    color: #c7c7c7;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav div a:hover {
+    color: white;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 100px 65px 100px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#intro h1 {
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.1;
+    margin-left: 160px;
+}
+
+#intro p {
+    font-size: 20px;
+    color: lightslategray;
+    line-height: 1.6;
+    max-width: 500px;
+    margin-top: 8px;
+    margin-left: 160px;
+}
+
+#intro img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 8px;
+    margin-right: 210px;
+    margin-top: 50px;
+}
+#about {
+    background-color: #0d0d0d;
+    color: lightslategray;
+    padding: 65px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about h2 {
+    color: #ff79c6;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#about p {
+    color: lightslategray;
+    font-size: 15px;
+    max-width: 700px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "Source Serif Pro", Georgia, serif;
+}
+
+#about li {
+    margin-bottom: 10px;
+    font-family: "Source Serif Pro", Georgia, serif;
+}
+
+#contact {
+    text-align: center;
+    padding: 30px;
+    background-color: #0d0d0d;
+}
+
+#contact p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #bcbcbc;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#contact a img {
+    margin: 0 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#contact a img:hover {
+    transform: scale(1.2);
+    opacity: 0.85;
+}
+
+footer {
+    background-color: #000;
+    color: #a5a5a5;
+    text-align: left;
+    padding: 15px 0;
+    margin-top: auto;
+    font-size: 15px;
+}
+
+footer p {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
